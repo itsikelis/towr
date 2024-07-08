@@ -48,17 +48,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 namespace towr {
 
-NlpFormulation::NlpFormulation ()
-{
-  using namespace std;
-  cout << "\n";
-  cout << "************************************************************\n";
-  cout << " TOWR - Trajectory Optimization for Walking Robots (v1.4)\n";
-  cout << "                \u00a9 Alexander W. Winkler\n";
-  cout << "           https://github.com/ethz-adrl/towr\n";
-  cout << "************************************************************";
-  cout << "\n\n";
-}
+NlpFormulation::NlpFormulation () {}
 
 NlpFormulation::VariablePtrVec
 NlpFormulation::GetVariableSets (SplineHolder& spline_holder)
