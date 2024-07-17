@@ -63,7 +63,7 @@ Parameters::Parameters() {
                                            // is respected at discrete times.
   constraints_.push_back(
       Force);  // ensures unilateral forces and inside the friction cone.
-  // constraints_.push_back(Swing); // creates smoother swing motions, not
+  constraints_.push_back(Swing);  // creates smoother swing motions, not
   // absolutely required.
 
   // optional costs to e.g penalize endeffector forces
